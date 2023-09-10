@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.nav-container  {
+    list-style: none;
+    color: #202020;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+li a{
+    text-decoration: none;
+    color: #202020;
+    opacity: 0.7;
+}
+
+button {
+    border: none;
+    border-radius: 5px ;
+    background: #5528FF ;
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 4.5px 15px;
+    transition: all .1s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.04)
+}
+
+.title {
+    color: #202020;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 19%;
+    padding-bottom: 117px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 37px;
+}
+
+
+.nav-container li a:hover{
+    opacity: 1;
+    transition: all .07s ease-in-out;
+}
+
+
+.chapter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 19%;
+    padding-right: 19%; 
+}
+
+h2 {
+    color: #202020;
+    font-family: Ubuntu;
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-bottom: 30px;
+    margin: 3% 19%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Chapter p {
+    color: #4F4F4F;
+    font-family: Ubuntu;
+    font-size: 2rem;
+    font-weight: 400;
+    width: 741px;
+    margin-right: 19%;
+    margin-left: 19%;
+    padding-bottom: 70px;
+    line-height: 160.86%;
+}
+
+.btn1 {
+    border: none;
+    border-radius: 10px;
+    background-color: #5528FF;
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    width: 235px;
+    height: 60px;
+    padding: 16px 58 px;
+    margin-right: 19%;
+    margin-left: 19%;
+}
+
+.thin-line {
+    margin: 100px 0;
+    height: 0.2px;
+    background-color:#d6d6d6;
+    position: relative;
+}
+.thin-line::before {
+    content: attr(data-text);
+    top: -10px;
+    left: 16.5%;
+    position: absolute;
+    background: #ffffff;
+    color: #C2C2C2;
+    padding: 0 20px;
+} 
+
+.our_service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 62%;
+    margin: 0 auto;
+    gap: 82px;
+}
+
+.container1 {
+    gap: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    gap: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 {
+    gap: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4 {
+    gap: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 h4, .box2 h4, .box3 h4, .box4 h4  {
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.box1 p, .box2 p , .box3 p , .box4 p{
+    color: #B2B2B2;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 311px;
+    margin-left: 5px; 
+}
+
+.box1, .box2, .box3, .box4 {
+    width: 311px;
+}
+
+.footer-container {  
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.last_block {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 3% 19%;
+    gap: 40px;  
+}
+
+.logo-container2 {
+    margin-left: 19%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.thin-line {
+    margin: 100px 0;
+    height: 0.2px;
+    background-color:#d6d6d6;
+    position: relative;
+}
+.thin-line::before {
+    content: attr(data-text);
+    top: -10px;
+    left: 16.5%;
+    position: absolute;
+    background: #ffffff;
+    color: #C2C2C2;
+    padding: 0 20px;
+}
+
+.CompanyLabel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 62%;
+    margin: 0 auto;
+    gap: 120px;
+    padding-bottom: 30px;
+}
+
+.our_team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 62%;
+    margin: 0 auto;
+    gap: 60px;
+    padding-bottom: 100px;
+}
+
+.foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8, .foto9 {
+    gap: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto1 img, .foto2 img, .foto3 img, .foto4 img, .foto5 img, .foto6 img, .foto7 img, .foto8 img, .foto9 img {
+width: 100px;
+height: 100px;
+} 
+
+.worker1 h4, .worker2 h4,.worker3 h4, .worker4 h4, .worker5 h4, .worker6 h4, .worker7 h4, .worker8 h4, .worker9 h4{
+color: #202020;
+font-family: Ubuntu;
+font-size: 1.75rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.worker1 p,.worker2 p, .worker3 p, .worker4 p, .worker5 p, .worker6 p, .worker7 p, .worker8 p, .worker9 p {
+    color: #B2B2B2;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 11px;
+}
